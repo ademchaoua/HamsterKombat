@@ -12,13 +12,13 @@ This script interacts with the Hamster Kombat API to fetch user information and 
 1. **Clone the repository or download the script:**
 
    ```bash
-   git clone https://github.com/your-repo/hamster-kombat-api-script.git
-   cd hamster-kombat-api-script
+   git clone https://github.com/ademchaoua/HamsterKombat.git
+   cd HamsterKombat
 
 2. **Run the script:**
 
     ```bash
-    php hamster_kombat.php
+    php Hamster.php
     ```
 
 3. **Enter your user token when prompted.**
