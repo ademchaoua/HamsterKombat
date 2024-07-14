@@ -35,7 +35,7 @@ class Hamster
         $ch = curl_init();
 
         curl_setopt_array($ch,[
-            CURLOPT_URL => 'https://api.hamsterkombat.io/clicker/sync',
+            CURLOPT_URL => 'https://api.hamsterkombatgame.io/clicker/sync',
             CURLOPT_POST => true,
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_POSTFIELDS => null,
@@ -69,7 +69,7 @@ class Hamster
         $ch = curl_init();
 
         curl_setopt_array($ch,[
-            CURLOPT_URL => 'https://api.hamsterkombat.io/clicker/tap',
+            CURLOPT_URL => 'https://api.hamsterkombatgame.io/clicker/tap',
             CURLOPT_POST => true,
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_POSTFIELDS => json_encode($data),
